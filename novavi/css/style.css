@@ -1,0 +1,34 @@
+body{
+    transition: 1s;
+  
+}
+nav{
+    transition: 20s;
+    position: fixed;
+    margin-left: 200px;
+    padding: 40px;
+}
+nav>a{
+    text-decoration: none;
+    color: wheat;
+    padding: 15px 15px;
+}
+nav>button{
+    background-color: orange;
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    text-align: center;
+}
+nav>button>a{
+    text-decoration: none; 
+    color: black;
+}
+.images{
+    max-width: 500pc;
+}
+.mySlides{
+    width: 100%;
+}
