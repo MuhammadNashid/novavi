@@ -1,17 +1,28 @@
 body{
     transition: 1s;
+    background-color: black;
   
 }
 nav{
-    transition: 20s;
+    display: flex;
+    flex-wrap: wrap;
     position: fixed;
-    margin-left: 200px;
-    padding: 40px;
+    margin-left: 300px;
 }
 nav>a{
     text-decoration: none;
     color: wheat;
-    padding: 15px 15px;
+    margin-left: 100px;
+   margin-top: 50px;
+}
+nav>a:hover{
+    color: orange;
+}
+nav>img{
+    margin-left: 40px;
+    margin-top: 30px;
+    
+
 }
 nav>button{
     background-color: orange;
@@ -21,10 +32,19 @@ nav>button{
     border-radius: 30px;
     outline: 0;
     text-align: center;
+    margin-left: 30px;
+    padding: 15px 15px ;
+    margin-top: 30px;
 }
 nav>button>a{
     text-decoration: none; 
     color: black;
+}
+.menu{
+    float: right;
+    padding: 20px 20px;
+    margin-left: 50px;
+
 }
 .images{
     max-width: 500pc;
